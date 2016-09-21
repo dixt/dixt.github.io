@@ -1,2 +1,58 @@
-<p>BEER WE CAN</p>
-<h4>Under costruction!</h4>
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+body {
+    background-color: lightblue;
+}
+</style>
+</head>
+
+
+<body id="bodyid">
+<h1>BEER WE CAN</h1>
+
+
+
+<!-- BEERS -->
+
+<table>
+	<tr>
+		<td><img src="images/can/landerbrau.jpg" alt="Lander Brau"></td>
+		<td><img src="images/can/heinekenjemfest.jpg" alt="Lander Brau"></td>
+		<td><img src="images/can/favorit.jpg" alt="Lander Brau"></td>
+		<td><img src="images/can/beckerspils.jpg" alt="Lander Brau"></td>
+	</tr>
+	<tr>
+		<td>Lander Brau</td>
+		<td>Heineken Jem Fest</td>
+		<td>Favorit</td>
+		<td>Becker's Pils</td>
+	</tr>
+</table>
+
+
+
+
+<br/>
+<br/>
+<!-- TEST -->
+
+<button type="button" onclick="changeBackground();">Click Me!</button>
+<script>
+function changeBackground() {
+	var color1 = "lightblue";
+	var color2 = "#e7cd18";
+	var body = document.body;
+	var actualColor = body.style.backgroundColor;
+	if(actualColor==color1)
+		body.style.backgroundColor = color2;
+	else
+		body.style.backgroundColor = color1;
+}
+</script>
+
+<h5>Site under costruction!</h5>
+</body>
+</html>
