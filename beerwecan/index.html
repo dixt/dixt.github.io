@@ -2,11 +2,20 @@
 <html>
 
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
 <style>
 body {
     background-color: #e7cd18;
 }
+td {
+	font-family: verdana;
+    font-size: 20px;
+	background-color: red;
+}
+
 </style>
+
 </head>
 
 
@@ -14,9 +23,76 @@ body {
 <h1>BEER WE CAN</h1>
 
 
+<script>
+$.ajax({
+  url: "images/can/",
+  success: function(data){
+     $(data).find("a:contains(.jpg)").each(function(){
+        // will loop through 
+        var images = $(this).attr("href");
+
+        $('<p></p>').html(images).appendTo('a div of your choice')
+
+     });
+  }
+});
+
+$("h1").hide(); // - hides all <p> elements.
+</script>
 
 <!-- BEERS -->
 
+
+
+<!--
+amsterdam.jpg
+aster.jpg
+beckerspils.jpg
+bestbrau.jpg
+birradana.jpg
+birraitalia.jpg
+birrajoder.jpg
+birramoretti.jpg
+birramorettichampions.jpg
+budwiser.jpg
+castellodiudine.jpg
+cronenbourg.jpg
+dab.jpg
+danabrau.jpg
+duff.jpg
+favorit.jpg
+forst.jpg
+forstwhite.jpg
+germania.jpg
+gosser.jpg
+heineken.jpg
+heinekenjemfest.jpg
+henninger.jpg
+hofferbrau.jpg
+kaiserdompilsener.jpg
+karlovacko.jpg
+landerbrau.jpg
+nastroazzurro.jpg
+nastroazzurrowhite.jpg
+oettinger.jpg
+ozujusko.jpg
+peroni.jpg
+peroniblue.jpg
+printz.jpg
+royaldutch.jpg
+sanmiguel.jpg
+splugen.jpg
+splugenwhite.jpg
+stellaartois.jpg
+stubenbrau.jpg
+tuborg.jpg
+vikinger.jpg
+vonwunster.jpg
+waidbauer.jpg
+wersteiner.jpg
+-->
+
+<!--
 <table>
 
 	<tr>
@@ -42,13 +118,82 @@ body {
 		<td><img src="images/can/budwiser.jpg" ></td>
 	</tr>
 	<tr>
-		<td>Brra Italia</td>
+		<td>Birra Italia</td>
 		<td>Birra Joder</td>
 		<td>Becker's Pils</td>
 		<td>Birra Moretti ch.</td>
 		<td>Budwiser</td>
 	</tr>
 </table>
+-->
+
+
+
+<table id="beerAutotable">
+	<tr id="beerAutotableRow1"></tr>
+</table>
+
+<script>
+var beers = [
+"amsterdam.jpg"
+,"aster.jpg"
+,"beckerspils.jpg"
+,"bestbrau.jpg"
+,"birradana.jpg"
+,"birraitalia.jpg"
+,"birrajoder.jpg"
+,"birramoretti.jpg"
+,"birramorettichampions.jpg"
+,"budwiser.jpg"
+,"castellodiudine.jpg"
+,"cronenbourg.jpg"
+,"dab.jpg"
+,"danabrau.jpg"
+,"duff.jpg"
+,"favorit.jpg"
+,"forst.jpg"
+,"forstwhite.jpg"
+,"germania.jpg"
+,"gosser.jpg"
+,"heineken.jpg"
+,"heinekenjemfest.jpg"
+,"henninger.jpg"
+,"hofferbrau.jpg"
+,"kaiserdompilsener.jpg"
+,"karlovacko.jpg"
+,"landerbrau.jpg"
+,"nastroazzurro.jpg"
+,"nastroazzurrowhite.jpg"
+,"oettinger.jpg"
+,"ozujusko.jpg"
+,"peroni.jpg"
+,"peroniblue.jpg"
+,"printz.jpg"
+,"royaldutch.jpg"
+,"sanmiguel.jpg"
+,"splugen.jpg"
+,"splugenwhite.jpg"
+,"stellaartois.jpg"
+,"stubenbrau.jpg"
+,"tuborg.jpg"
+,"vikinger.jpg"
+,"vonwunster.jpg"
+,"waidbauer.jpg"
+,"wersteiner.jpg"
+];
+
+var beerAutotable = document.getElementById("beerAutotable");
+var row1 = beerAutotable.insertRow(0);
+for(i=0; i<beers.length; ++i){
+	cell = row1.insertCell(-1);
+	cell.innerHTML = "<img src='images/can/" + beers[i] + "' >";
+}
+var row2 = beerAutotable.insertRow(1);
+for(i=0; i<beers.length; ++i){
+	cell = row2.insertCell(-1);
+	cell.innerHTML = beers[i];
+}
+</script>
 
 
 
