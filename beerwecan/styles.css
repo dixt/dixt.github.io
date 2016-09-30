@@ -159,6 +159,11 @@ body{
 	color:#000000;
 	background-color:#F3F2ED;
 	}
+
+#headerGap{
+	height:50px;
+	background:transparent;
+	}	
 	
 .content{
 	height:300px;
@@ -186,8 +191,9 @@ body{
 	
 #footer{
 	height:50px;
-	background:#BFBD93;
-	border-top:#FFFFFF 2px solid;
+	/*background:#BFBD93;*/
+	/*border-top:#FFFFFF 2px solid;*/
+	background:transparent;
 	margin:0;
 	padding:0;
 	}
@@ -196,13 +202,14 @@ body{
 
 .canCell{
 	height:auto;
-	/*background-color: #ffd34f;
-	background:#CCC8B3;*/
+	/*
+	background-color: #ffd34f;
+	background:#CCC8B3;
+	background:transparent;
+	*/
 	background:#ffd34f;
-	border-top:#FFFFFF 2px solid;
-	
 	margin: auto;
-	padding:0;
+	padding-top:10px;
 	}
 
 .canName{
