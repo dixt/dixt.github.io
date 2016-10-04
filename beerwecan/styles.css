@@ -9,6 +9,7 @@ version: 2.2.2
 
 body{
 	text-align:center;
+	background-image: url("images/common/beer_background4.png");
 	background-color: #e7cd18;
 }
 #ft{clear:both;}
@@ -139,6 +140,7 @@ body{
 #header{
 	height:180px;
 	background-color:--main-bg-color; /*#F3F2ED;*/
+	background-image: url("images/common/beer_top.jpg");
 	margin:0;
 	padding:0;
 	}
