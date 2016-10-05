@@ -9,7 +9,7 @@ version: 2.2.2
 
 body{
 	text-align:center;
-	background-image: url("images/common/beer_background4.png");
+	background-image: url("images/common/beer_background.png");
 	background-color: #e7cd18;
 }
 #ft{clear:both;}
@@ -140,13 +140,13 @@ body{
 #header{
 	height:180px;
 	background-color:--main-bg-color; /*#F3F2ED;*/
-	background-image: url("images/common/beer_top.jpg");
+	background-image: url("images/common/beer_top.png");
 	margin:0;
 	padding:0;
 	}
 
 #headerImg {
-    height:180px;
+    height:200px;
     display: block;
     margin: auto;
     }

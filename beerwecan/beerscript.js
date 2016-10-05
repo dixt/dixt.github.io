@@ -82,14 +82,37 @@ function getRandomColor() {
 
 var backgroundImages = [
 "beer_background.png"
-,"beer_background2.png"
-,"beer_background3.png"
-,"beer_background4.png"
-,"beer_background5.png"
 ];
 
 function setRandomBackground(){
 	var path = "images/common/";
 	var image = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
 	document.body.style.backgroundImage= "url('"+path+image+"')";
+}
+
+var topImages = [
+"beer_top.png"
+,"beer_top2.jpg"
+,"beer_top4.jpg"
+
+,"beer_top6.jpg"
+,"beer_top7.jpg"
+,"beer_top8.jpg"
+
+,"beer_top9.png"
+,"beer_top10.png"
+,"beer_top13.png"
+,"beer_top14.png"
+,"beer_top15.png"
+,"beer_top16.png"
+,"beer_top17.png"
+,"beer_top18.png"
+,"beer_top19.png"
+,"beer_top20.png"
+];
+
+function setRandomTopImage(){
+	var path = "images/common/";
+	var image = topImages[Math.floor(Math.random() * topImages.length)];
+	document.getElementById("header").style.backgroundImage= "url('"+path+image+"')";
 }
