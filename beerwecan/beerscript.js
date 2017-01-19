@@ -2,6 +2,7 @@
 var beers = [
 "amsterdam.jpg"
 ,"aster.jpg"
+,"axt.jpg"
 ,"beckerspils.jpg"
 ,"bestbrau.jpg"
 ,"birradana.jpg"
@@ -9,6 +10,7 @@ var beers = [
 ,"birrajoder.jpg"
 ,"birramoretti.jpg"
 ,"birramorettichampions.jpg"
+,"brewdogkingpin.jpg"
 ,"brewdogpunkipa.jpg"
 ,"budwiser.jpg"
 ,"castellodiudine.jpg"
