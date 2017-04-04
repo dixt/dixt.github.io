@@ -52,6 +52,46 @@ var beers = [
 ,"wersteiner.jpg"
 ];
 
+var caps = [
+"cap1.jpg"
+,"cap2.jpg"
+,"cap3.jpg"
+,"cap4.jpg"
+,"cap5.jpg"
+,"cap6.jpg"
+,"cap7.jpg"
+,"cap8.jpg"
+,"cap9.jpg"
+,"cap10.jpg"
+,"cap11.jpg"
+,"cap12.jpg"
+,"cap13.jpg"
+,"cap14.jpg"
+,"cap15.jpg"
+,"cap16.jpg"
+,"cap17.jpg"
+,"cap18.jpg"
+,"cap19.jpg"
+,"cap20.jpg"
+,"cap21.jpg"
+,"cap22.jpg"
+,"cap23.jpg"
+];
+
+var glasses = [
+"glass1.jpg"
+,"glass2.jpg"
+,"glass3.jpg"
+,"glass4.jpg"
+];
+
+var bottles = [
+"bottle1.jpg"
+,"bottle2.jpg"
+,"bottle3.jpg"
+,"bottle4.jpg"
+];
+
 
 
 function populateCanGrid() {
@@ -61,6 +101,45 @@ function populateCanGrid() {
 			//Beers images
 			var beer = beers[index];
 			$(this).html('<img class="canImg" src="images/can/' + beer + '" ><div class="canName">' + beer + '</div>');
+		} else {
+			//Empty placeholder
+			$(this).text('');
+		}
+	});
+}
+
+function populateCapsGrid() {
+	$('.canCell').each(function(index) {
+		if(index<caps.length){
+			//Beers images
+			var beer = caps[index];
+			$(this).html('<img class="capImg" src="images/caps/' + beer + '" ><div class="canName">' + beer + '</div>');
+		} else {
+			//Empty placeholder
+			$(this).text('');
+		}
+	});
+}
+
+function populateGlassesGrid() {
+	$('.canCell').each(function(index) {
+		if(index<glasses.length){
+			//Beers images
+			var beer = glasses[index];
+			$(this).html('<img class="canImg" src="images/glasses/' + beer + '" ><div class="canName">' + beer + '</div>');
+		} else {
+			//Empty placeholder
+			$(this).text('');
+		}
+	});
+}
+
+function populateBottlesGrid() {
+	$('.canCell').each(function(index) {
+		if(index<bottles.length){
+			//Beers images
+			var beer = bottles[index];
+			$(this).html('<img class="canImg" src="images/bottles/' + beer + '" ><div class="canName">' + beer + '</div>');
 		} else {
 			//Empty placeholder
 			$(this).text('');
