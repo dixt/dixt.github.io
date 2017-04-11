@@ -90,6 +90,8 @@ var bottles = [
 ,"bottle2.jpg"
 ,"bottle3.jpg"
 ,"bottle4.jpg"
+,"bottle5.jpg"
+,"bottle6.jpg"
 ];
 
 
