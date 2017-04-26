@@ -31,5 +31,8 @@ var caps = [
 ,"tuborg"
 ,"tuborg2"
 ,"erdinger"
-,"peroni"
+,"nastroAzzurro"
+,"lasko"
+,"dreher"
+,"ceres"
 ];
