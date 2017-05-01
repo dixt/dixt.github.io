@@ -35,4 +35,10 @@ var caps = [
 ,"lasko"
 ,"dreher"
 ,"ceres"
+,"paulaner"
+,"hoegaarden"
+,"pedavena"
+,"ichnusa"
+,"spaten"
+,"sanMiguel"
 ];
