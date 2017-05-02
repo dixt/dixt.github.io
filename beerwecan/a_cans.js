@@ -17,6 +17,7 @@ var cans = [
 ,"dab"
 ,"danabrau"
 ,"duff"
+,"electionfraud"
 ,"favorit"
 ,"forst"
 ,"forstwhite"
