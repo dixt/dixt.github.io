@@ -41,4 +41,8 @@ var caps = [
 ,"ichnusa"
 ,"spaten"
 ,"sanMiguel"
+,"imperialGhisa"
+,"rochefort10"
+,"rochefort6"
+,"peroni"
 ];
