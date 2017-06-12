@@ -45,4 +45,5 @@ var caps = [
 ,"rochefort10"
 ,"rochefort6"
 ,"peroni"
+,"corona"
 ];
