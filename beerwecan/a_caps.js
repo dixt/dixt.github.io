@@ -49,4 +49,6 @@ var caps = [
 ,"benediktiner"
 ,"becksBerlin"
 ,"heinekenQuality"
+,"carlsberg"
+,"greenDog"
 ];
