@@ -46,4 +46,7 @@ var caps = [
 ,"rochefort6"
 ,"peroni"
 ,"corona"
+,"benediktiner"
+,"becksBerlin"
+,"heinekenQuality"
 ];
