@@ -8,4 +8,9 @@ var bottles = [
 ,"suicideBlond"
 ,"heineken"
 ,"ettaler"
+,"leffe"
+,"erdinger"
+,"rochefort6"
+,"harboeBjorne"
+,"rudBir"
 ];

@@ -51,4 +51,6 @@ var caps = [
 ,"heinekenQuality"
 ,"carlsberg"
 ,"greenDog"
+,"harboeBjorne"
+,"morettiRossa"
 ];

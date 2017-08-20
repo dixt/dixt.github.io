@@ -96,6 +96,7 @@ function setRandomBackground(){
 var topImages = [
 "beer_top.png"
 ,"beer_top2.jpg"
+,"beer_top3.jpg"
 ,"beer_top4.jpg"
 
 ,"beer_top6.jpg"
