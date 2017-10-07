@@ -53,4 +53,7 @@ var caps = [
 ,"greenDog"
 ,"harboeBjorne"
 ,"morettiRossa"
+,"frontier"
+,"pilsnerUrquell"
+,"blezebuth"
 ];
