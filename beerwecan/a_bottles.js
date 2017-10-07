@@ -13,4 +13,10 @@ var bottles = [
 ,"rochefort6"
 ,"harboeBjorne"
 ,"rudBir"
+,"luppolandia2017"
+,"forst"
+,"mcGargles2"
+,"pilsnerUrquell"
+,"belzebuth"
+,"frontier"
 ];
