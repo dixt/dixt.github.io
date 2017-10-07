@@ -56,4 +56,11 @@ var caps = [
 ,"frontier"
 ,"pilsnerUrquell"
 ,"blezebuth"
+,"paulaner2"
+,"sanMiguel2"
+,"bestBrau"
+,"ichnusa2"
+,"tripelKarmeliet"
+,"birraAntoniana"
+,"ilBeerbante"
 ];
