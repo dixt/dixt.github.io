@@ -63,4 +63,6 @@ var caps = [
 ,"tripelKarmeliet"
 ,"birraAntoniana"
 ,"ilBeerbante"
+,"diaDeLosMuertos"
+,"bud"
 ];
