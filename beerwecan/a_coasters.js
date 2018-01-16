@@ -9,4 +9,11 @@ var coasters = [
 ,"kulmbacher"
 ,"dada"
 ,"dada2"
+,"stellaArtois"
+,"warsteiner"
+,"elav"
+,"paulaner"
+,"kilkenny"
+,"franziskaner"
+,"astra"
 ];

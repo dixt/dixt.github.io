@@ -18,6 +18,7 @@ var cans = [
 ,"cronenbourg"
 ,"dab"
 ,"danabrau"
+,"doubleAgent"
 ,"duff"
 ,"electionfraud"
 ,"favorit"
