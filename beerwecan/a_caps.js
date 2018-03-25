@@ -43,6 +43,7 @@ var caps = [
 ,"sanMiguel"
 ,"imperialGhisa"
 ,"rochefort10"
+,"rochefort8"
 ,"rochefort6"
 ,"peroni"
 ,"corona"
@@ -65,4 +66,8 @@ var caps = [
 ,"ilBeerbante"
 ,"diaDeLosMuertos"
 ,"bud"
+,"grimbergen"
+,"guinness"
+,"benediktinerHell"
+,"kona"
 ];
