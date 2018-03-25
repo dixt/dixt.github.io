@@ -68,6 +68,7 @@ var caps = [
 ,"bud"
 ,"grimbergen"
 ,"guinness"
+,"franziskaner"
 ,"benediktinerHell"
 ,"kona"
 ];
