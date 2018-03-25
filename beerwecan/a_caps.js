@@ -65,4 +65,5 @@ var caps = [
 ,"ilBeerbante"
 ,"diaDeLosMuertos"
 ,"bud"
+,“kona”
 ];
